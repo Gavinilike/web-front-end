@@ -12,9 +12,7 @@
 * master 
 
     + 上线产品级代码
-* 2015.07（老分支）
 
-    + 采用jQuery,fullPage.js开发
 * dev（开发分支）
 
     + 采用ES6,angularJS 1.x,gulp,less,webpack开发构建
