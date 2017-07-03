@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var arr=['啊','聪','波']
+		
+		arr.sort(function(a,b){
+			return a.localeCompare(b);
+		})
+		console.log(arr)
+		
+		    var sttt = ['付浩强','丁国庆','杨丽','魏丽君','张宏伟'];
+      sttt.sort(function(a,b){
+            return b.localeCompare(a);
+       })
+      console.log(sttt)
+
+
+      var obj={
+      	a:1,
+      	b:function(){console.log(this.a)}
+      }
+      var a=2;
+      var objb=obj.b;1`
+      obj.b();
+      objb();
+      obj.b.call(window);
+	</script>
+</body>
+</html>
